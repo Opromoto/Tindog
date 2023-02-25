@@ -23,15 +23,15 @@ class Dog {
                     <h3 class="name">${name}, <span class="age"> ${age}</span></h3>
                     <p class="bio">${bio}</p>
                 </div>
-                <img src="badge-like.png" class="like-badge" id="like-badge">
-                <img src="badge-nope.png" class="nope-badge" id="nope-badge">
+                <img src="./images/badge-like.png" class="like-badge" id="like-badge">
+                <img src="./images/badge-nope.png" class="nope-badge" id="nope-badge">
             </div>
             <div class="dog-btn">
                 <div class="nope-btn btns">
-                    <img src="./icon-cross.png"  id="nope-btn">
+                    <img src="./images/icon-cross.png"  id="nope-btn">
                 </div>
                 <div class="like-btn btns" >
-                    <img src="icon-heart.png" id="like-btn">
+                    <img src="./images/icon-heart.png" id="like-btn">
                 </div>                
             </div>`
     }
