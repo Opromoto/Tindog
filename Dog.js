@@ -23,40 +23,19 @@ class Dog {
                     <h3 class="name">${name}, <span class="age"> ${age}</span></h3>
                     <p class="bio">${bio}</p>
                 </div>
-                <img src="./images/badge-like.png" class="like-badge" id="like-badge">
-                <img src="./images/badge-nope.png" class="nope-badge" id="nope-badge">
+                <img src="badge-like.png" class="like-badge" id="like-badge">
+                <img src="badge-nope.png" class="nope-badge" id="nope-badge">
             </div>
             <div class="dog-btn">
                 <div class="nope-btn btns">
-                    <img src="./images/icon-cross.png"  id="nope-btn">
+                    <img src="./icon-cross.png"  id="nope-btn">
                 </div>
                 <div class="like-btn btns" >
-                    <img src="./images/icon-heart.png" id="like-btn">
+                    <img src="icon-heart.png" id="like-btn">
                 </div>                
             </div>`
     }
 }
-
-// class Liked{
-//     constructor(data) {
-//         Object.assign(this, data)
-//     }
-
-//     getLikedDogsHtml() {
-//         const {name, avatar, age, bio} = this
-
-//         return `
-//             <div class="profile">
-//             <img src="${avatar}" alt="">
-//             <div class="profile-inner">
-//                 <h3>${name}, <span class="age"> ${age}</span></h3>
-//                 <p>${bio}</p>
-//                 <button class="unlike-btn">unlike</button>
-//             </div> `
-//     }
-
-// }
-
 
 
 export {Dog}
