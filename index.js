@@ -17,7 +17,7 @@ document.addEventListener('click', e => {
         if (e.target.id === 'like-btn') {
             waiting = true
             likeDog()
-        } else if (e.target.id === 'dislike-btn') {
+        } else if (e.target.id === 'nope-btn') {
             waiting = true
             dislikeDog()
         }
@@ -38,7 +38,7 @@ const render = () => {
 render()
 
 const dislikeDog = () => {
-    document.getElementById('nope-div').style.display = "block"
+    document.getElementById('nope-badge').style.display = "block"
     dog.setHasBeenSwiped()
 
     setTimeout(() => {
@@ -47,12 +47,11 @@ const dislikeDog = () => {
 }
 
 const likeDog = () => {
-    document.getElementById('like-div').style.display = "block"
+    document.getElementById('like-badge').style.display = "block"
     dog.setHasBeenSwiped()
     dog.setHasBeenLiked()
 
     likedDogsArray.push(dog)
-
     setTimeout(() => {
         getNextDog()
     }, 1500)

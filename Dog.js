@@ -23,12 +23,16 @@ class Dog {
                     <h3 class="name">${name}, <span class="age"> ${age}</span></h3>
                     <p class="bio">${bio}</p>
                 </div>
-                <div class="like-el" id="like-div">like</div>
-                <div class="nope-el" id="nope-div">nope</div>
+                <img src="./images/badge-like.png" class="like-badge" id="like-badge">
+                <img src="./images/badge-nope.png" class="nope-badge" id="nope-badge">
             </div>
             <div class="dog-btn">
-                <button class="nope"><i class="fa fa-times" aria-hidden="true" id="dislike-btn"></i></button>
-                <button class="like" ><i class="fa fa-heart" aria-hidden="true" id="like-btn"></i></button>
+                <div class="nope-btn btns">
+                    <img src="./images/icon-cross.png"  id="nope-btn">
+                </div>
+                <div class="like-btn btns" >
+                    <img src="./images/icon-heart.png" id="like-btn">
+                </div>                
             </div>`
     }
 }

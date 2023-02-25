@@ -47,11 +47,7 @@ header nav ul,
   text-align: center;
 }
 .unlike-btn,
-.paw {
-  background: linear-gradient(#FA695A, #F83375);
-  border-radius: 70px;
-  color: white;
-}
+
 .start-over, .dog-btn {
   justify-content: center;
   margin: 3rem auto;  
@@ -96,60 +92,42 @@ main {
   font-size: 2.7rem;
   padding-left: 10px;
 }
-.dog-btn {
-  font-size: 7rem;
-}
-.nope, .like {
+.nope-btn, .like-btn {
+  display: inline;
   background: white;
   box-shadow: 0px 10px 20px #E9E9EA;
-  border: none;
   border-radius: 50%;
-  
+  padding: 30px;
 }
-.nope{
-  color: #da175b;
-  padding: 15px 28px;
+.btns img{
+  width: 60px;
+  height: 60px;
 }
-.like {
+.like-btn-btn {
   color: #00D894;
-  padding: 15px 20px 10px;
+
 }
 
-.like:focus,
-.like:hover {
+.like-btn:focus,
+.like-btn:hover {
   background: #DBFFF4;
 }
-.nope:focus, 
-.nope:hover {
+.nope-btn:focus, 
+.nope-btn:hover {
   background: #FFE7EF;
 }
 
   /* stickers */
-.like-el, .nope-el {
+.like-badge, .nope-badge {
   display: none;
-  font-size: 13rem;
-  text-transform: uppercase;
   width: 600px;
   height: 300px;
   border-radius: 1rem;
-  padding: 10px 0;
-  font-weight: 600;
-  rotate: -25deg;
   position: absolute;
   top: 150px;
   left: 50px;
   margin: auto;
-
-
-}
-
-.like-el {
-  border: 1.6rem solid #29D78A;
-  color: #00D894;
-}
-.nope-el {
-  border: 1.6rem solid #E82D70 ;
-  color: #E82D70;
+  rotate: -25deg;
 }
 
 /* liked Profiles section */
